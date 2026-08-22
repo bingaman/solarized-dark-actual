@@ -43,6 +43,13 @@ All **224** `--color-*` variables of Actual's built-in dark theme are defined, s
 the theme does not fall back to the base theme anywhere — including the nine
 `chartQual*` report colours.
 
+## Credits
+
+The original Palenight palette is by Olaolu Olawuyi
+([whizkydee/vscode-palenight-theme](https://github.com/whizkydee/vscode-palenight-theme)),
+published under the MIT license. This port only maps that palette onto Actual's
+theme variables; the colours are theirs.
+
 ## License
 
-MIT — see [LICENSE](LICENSE).
+MIT — see [LICENSE](LICENSE). Applies to this port.
