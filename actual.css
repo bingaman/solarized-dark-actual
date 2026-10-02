@@ -27,14 +27,14 @@
 
   /* --- accents ----------------------------------------------------------- */
   --solarized-accent: #7e57c2;              /* list.activeSelection, button   */
-  --solarized-purple: #c792ea;              /* keywords                       */
-  --solarized-blue: #82aaff;                /* functions                      */
-  --solarized-cyan: #89ddff;                /* operators                      */
-  --solarized-teal: #80cbc4;                /* links                          */
-  --solarized-green: #c3e88d;               /* strings                        */
-  --solarized-yellow: #ffcb6b;              /* attributes                     */
-  --solarized-orange: #f78c6c;              /* numbers                        */
-  --solarized-red: #ff5572;                 /* red / errors                   */
+  --solarized-purple: #6c71c4;              /* keywords                       */
+  --solarized-blue: #268bd2;                /* functions                      */
+  --solarized-cyan: #2aa198;                /* operators                      */
+  --solarized-teal: #d33682;                /* links                          */
+  --solarized-green: #859900;               /* strings                        */
+  --solarized-yellow: #b58900;              /* attributes                     */
+  --solarized-orange: #cb4b16;              /* numbers                        */
+  --solarized-red: #dc322f;                 /* red / errors                   */
 
   /* --- overlays ---------------------------------------------------------- */
   --solarized-purple-muted: rgba(199, 146, 234, 0.16);
