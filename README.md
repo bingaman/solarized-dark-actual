@@ -1,7 +1,7 @@
 # Solarized for Actual Budget
 
 A dark theme for [Actual Budget](https://actualbudget.org), a port of the
-[Solarized](https://github.com/solarized) colour scheme.
+[Solarized](https://github.com/solarized) colour scheme. Forked from palenight, in progress.
 
 | | |
 | --- | --- |
