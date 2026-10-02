@@ -22,7 +22,7 @@
   /* --- text -------------------------------------------------------------- */
   --solarized-foreground: #93a1a1;          /* editor.foreground              */
   --solarized-foreground-bright: #839496;   /* activityBar.foreground         */
-  --solarized-comment: #536268;             /* comments / muted text          */
+  --solarized-comment: #839496;             /* comments / muted text          */
   --solarized-comment-dim: #4c5374;         /* editorLineNumber.foreground    */
 
   /* --- accents ----------------------------------------------------------- */
