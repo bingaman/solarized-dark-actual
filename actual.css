@@ -1,8 +1,8 @@
 /* ========================================================================== */
-/*  Palenight theme for Actual Budget                                         */
+/*  solarized theme for Actual Budget                                         */
 /*                                                                            */
-/*  Palette source: whizkydee/vscode-palenight-theme, themes/palenight.json   */
-/*  (the canonical Palenight, same one the iTerm2/wezterm scheme derives from)*/
+/*  Palette source: whizkydee/vscode-solarized-theme, themes/solarized.json   */
+/*  (the canonical solarized, same one the iTerm2/wezterm scheme derives from)*/
 /*  Every hex below is quoted from that file; the VS Code key is in the       */
 /*  comment so any value can be traced back.                                  */
 /*  Structure derived from the Dracula theme for Actual (same variable set).  */
@@ -10,290 +10,290 @@
 
 :root {
   /* --- surfaces, dark -> light ------------------------------------------- */
-  --palenight-background-dark: #282c3d;     /* activityBar/statusBar.bg       */
-  --palenight-border: #282b3c;              /* contrastBorder, focusBorder    */
-  --palenight-background: #292d3e;          /* editor.background              */
-  --palenight-page-background: #292d3e;     /* editor.background              */
-  --palenight-workspace: #2c3043;           /* editorSuggestWidget.background */
-  --palenight-selection: #2e3250;           /* peekViewResult.selectionBg     */
-  --palenight-background-light: #31364a;    /* editorWidget.bg, tab.inactive  */
-  --palenight-current-line: #32374c;        /* editorGroup.background         */
+  --solarized-background-dark: #073642;     /* activityBar/statusBar.bg       */
+  --solarized-border: #073642;              /* contrastBorder, focusBorder    */
+  --solarized-background: #073642;          /* editor.background              */
+  --solarized-page-background: #073642;     /* editor.background              */
+  --solarized-workspace: #073642;           /* editorSuggestWidget.background */
+  --solarized-selection: #073642;           /* peekViewResult.selectionBg     */
+  --solarized-background-light: #073642;    /* editorWidget.bg, tab.inactive  */
+  --solarized-current-line: #073642;        /* editorGroup.background         */
 
   /* --- text -------------------------------------------------------------- */
-  --palenight-foreground: #bfc7d5;          /* editor.foreground              */
-  --palenight-foreground-bright: #eeffff;   /* activityBar.foreground         */
-  --palenight-comment: #697098;             /* comments / muted text          */
-  --palenight-comment-dim: #4c5374;         /* editorLineNumber.foreground    */
+  --solarized-foreground: #93a1a1;          /* editor.foreground              */
+  --solarized-foreground-bright: #839496;   /* activityBar.foreground         */
+  --solarized-comment: #536268;             /* comments / muted text          */
+  --solarized-comment-dim: #4c5374;         /* editorLineNumber.foreground    */
 
   /* --- accents ----------------------------------------------------------- */
-  --palenight-accent: #7e57c2;              /* list.activeSelection, button   */
-  --palenight-purple: #c792ea;              /* keywords                       */
-  --palenight-blue: #82aaff;                /* functions                      */
-  --palenight-cyan: #89ddff;                /* operators                      */
-  --palenight-teal: #80cbc4;                /* links                          */
-  --palenight-green: #c3e88d;               /* strings                        */
-  --palenight-yellow: #ffcb6b;              /* attributes                     */
-  --palenight-orange: #f78c6c;              /* numbers                        */
-  --palenight-red: #ff5572;                 /* red / errors                   */
+  --solarized-accent: #7e57c2;              /* list.activeSelection, button   */
+  --solarized-purple: #c792ea;              /* keywords                       */
+  --solarized-blue: #82aaff;                /* functions                      */
+  --solarized-cyan: #89ddff;                /* operators                      */
+  --solarized-teal: #80cbc4;                /* links                          */
+  --solarized-green: #c3e88d;               /* strings                        */
+  --solarized-yellow: #ffcb6b;              /* attributes                     */
+  --solarized-orange: #f78c6c;              /* numbers                        */
+  --solarized-red: #ff5572;                 /* red / errors                   */
 
   /* --- overlays ---------------------------------------------------------- */
-  --palenight-purple-muted: rgba(199, 146, 234, 0.16);
-  --palenight-blue-muted: rgba(130, 170, 255, 0.18);
-  --palenight-shadow: rgba(35, 38, 53, 0.75);
-  --palenight-overlay: rgba(32, 36, 49, 0.55);
-  --palenight-muted-overlay: rgba(191, 199, 213, 0.10);
-  --palenight-hover-overlay: rgba(191, 199, 213, 0.16);
+  --solarized-purple-muted: rgba(199, 146, 234, 0.16);
+  --solarized-blue-muted: rgba(130, 170, 255, 0.18);
+  --solarized-shadow: rgba(35, 38, 53, 0.75);
+  --solarized-overlay: rgba(32, 36, 49, 0.55);
+  --solarized-muted-overlay: rgba(191, 199, 213, 0.10);
+  --solarized-hover-overlay: rgba(191, 199, 213, 0.16);
 
 
-  --color-pageBackground: var(--palenight-page-background);
-  --color-pageBackgroundModalActive: var(--palenight-background-light);
-  --color-pageBackgroundTopLeft: var(--palenight-page-background);
-  --color-pageBackgroundBottomRight: var(--palenight-background-light);
-  --color-pageBackgroundLineTop: var(--palenight-purple);
-  --color-pageBackgroundLineMid: var(--palenight-page-background);
-  --color-pageBackgroundLineBottom: var(--palenight-cyan);
-  --color-pageText: var(--palenight-foreground);
-  --color-pageTextLight: var(--palenight-foreground);
-  --color-pageTextSubdued: var(--palenight-comment);
-  --color-pageTextDark: var(--palenight-foreground);
-  --color-pageTextPositive: var(--palenight-green);
-  --color-pageTextLink: var(--palenight-teal);
-  --color-pageTextLinkLight: var(--palenight-purple);
+  --color-pageBackground: var(--solarized-page-background);
+  --color-pageBackgroundModalActive: var(--solarized-background-light);
+  --color-pageBackgroundTopLeft: var(--solarized-page-background);
+  --color-pageBackgroundBottomRight: var(--solarized-background-light);
+  --color-pageBackgroundLineTop: var(--solarized-purple);
+  --color-pageBackgroundLineMid: var(--solarized-page-background);
+  --color-pageBackgroundLineBottom: var(--solarized-cyan);
+  --color-pageText: var(--solarized-foreground);
+  --color-pageTextLight: var(--solarized-foreground);
+  --color-pageTextSubdued: var(--solarized-comment);
+  --color-pageTextDark: var(--solarized-foreground);
+  --color-pageTextPositive: var(--solarized-green);
+  --color-pageTextLink: var(--solarized-teal);
+  --color-pageTextLinkLight: var(--solarized-purple);
 
-  --color-cardBackground: var(--palenight-background-light);
-  --color-cardBorder: var(--palenight-border);
-  --color-cardShadow: var(--palenight-shadow);
+  --color-cardBackground: var(--solarized-background-light);
+  --color-cardBorder: var(--solarized-border);
+  --color-cardShadow: var(--solarized-shadow);
 
-  --color-tableBackground: var(--palenight-background);
+  --color-tableBackground: var(--solarized-background);
   --color-tableRowBackgroundAlternate: var(--color-tableBackground);
-  --color-tableRowBackgroundHover: var(--palenight-background-dark);
-  --color-tableText: var(--palenight-foreground);
+  --color-tableRowBackgroundHover: var(--solarized-background-dark);
+  --color-tableText: var(--solarized-foreground);
   --color-tableTextItemAdded: var(--color-tableText);
   --color-tableTextLight: var(--color-tableText);
-  --color-tableTextSubdued: var(--palenight-comment);
-  --color-tableTextSelected: var(--palenight-foreground);
-  --color-tableTextHover: var(--palenight-cyan);
-  --color-tableTextInactive: var(--palenight-comment-dim);
-  --color-tableHeaderText: var(--palenight-foreground);
-  --color-tableHeaderBackground: var(--palenight-background-light);
-  --color-tableBorder: var(--palenight-border);
-  --color-tableBorderSelected: var(--palenight-purple);
-  --color-tableBorderHover: var(--palenight-cyan);
-  --color-tableBorderSeparator: var(--palenight-comment);
-  --color-tableRowBackgroundHighlight: var(--palenight-background-light);
-  --color-tableRowBackgroundHighlightText: var(--palenight-foreground);
-  --color-tableRowHeaderBackground: var(--palenight-background-light);
-  --color-tableRowHeaderText: var(--palenight-foreground);
+  --color-tableTextSubdued: var(--solarized-comment);
+  --color-tableTextSelected: var(--solarized-foreground);
+  --color-tableTextHover: var(--solarized-cyan);
+  --color-tableTextInactive: var(--solarized-comment-dim);
+  --color-tableHeaderText: var(--solarized-foreground);
+  --color-tableHeaderBackground: var(--solarized-background-light);
+  --color-tableBorder: var(--solarized-border);
+  --color-tableBorderSelected: var(--solarized-purple);
+  --color-tableBorderHover: var(--solarized-cyan);
+  --color-tableBorderSeparator: var(--solarized-comment);
+  --color-tableRowBackgroundHighlight: var(--solarized-background-light);
+  --color-tableRowBackgroundHighlightText: var(--solarized-foreground);
+  --color-tableRowHeaderBackground: var(--solarized-background-light);
+  --color-tableRowHeaderText: var(--solarized-foreground);
 
-  --color-numberPositive: var(--palenight-green);
-  --color-numberNegative: var(--palenight-red);
-  --color-numberNeutral: var(--palenight-comment);
+  --color-numberPositive: var(--solarized-green);
+  --color-numberNegative: var(--solarized-red);
+  --color-numberNeutral: var(--solarized-comment);
   --color-budgetNumberNegative: var(--color-numberNegative);
   --color-budgetNumberZero: var(--color-tableTextSubdued);
   --color-budgetNumberNeutral: var(--color-tableText);
   --color-budgetNumberPositive: var(--color-budgetNumberNeutral);
   --color-templateNumberFunded: var(--color-numberPositive);
-  --color-templateNumberUnderFunded: var(--palenight-orange);
+  --color-templateNumberUnderFunded: var(--solarized-orange);
   --color-toBudgetPositive: var(--color-numberPositive);
   --color-toBudgetZero: var(--color-numberPositive);
   --color-toBudgetNegative: var(--color-budgetNumberNegative);
 
-  --color-sidebarBackground: var(--palenight-background-dark);
-  --color-sidebarItemBackgroundPending: var(--palenight-orange);
-  --color-sidebarItemBackgroundPositive: var(--palenight-green);
-  --color-sidebarItemBackgroundFailed: var(--palenight-red);
-  --color-sidebarItemAccentSelected: var(--palenight-blue);
-  --color-sidebarItemBackgroundHover: var(--palenight-purple-muted);
-  --color-sidebarItemText: var(--palenight-foreground);
+  --color-sidebarBackground: var(--solarized-background-dark);
+  --color-sidebarItemBackgroundPending: var(--solarized-orange);
+  --color-sidebarItemBackgroundPositive: var(--solarized-green);
+  --color-sidebarItemBackgroundFailed: var(--solarized-red);
+  --color-sidebarItemAccentSelected: var(--solarized-blue);
+  --color-sidebarItemBackgroundHover: var(--solarized-purple-muted);
+  --color-sidebarItemText: var(--solarized-foreground);
   --color-sidebarItemTextUpdated: var(--color-sidebarItemText);
-  --color-sidebarItemTextSelected: var(--palenight-blue);
-  --color-sidebarBudgetName: var(--palenight-comment);
+  --color-sidebarItemTextSelected: var(--solarized-blue);
+  --color-sidebarBudgetName: var(--solarized-comment);
 
-  --color-menuBackground: var(--palenight-background-light);
-  --color-menuItemBackground: var(--palenight-background-light);
-  --color-menuItemBackgroundHover: var(--palenight-selection);
-  --color-menuItemText: var(--palenight-foreground);
-  --color-menuItemTextHover: var(--palenight-cyan);
-  --color-menuItemTextSelected: var(--palenight-blue);
-  --color-menuItemTextHeader: var(--palenight-purple);
-  --color-menuBorder: var(--palenight-border);
-  --color-menuBorderHover: var(--palenight-purple);
-  --color-menuKeybindingText: var(--palenight-comment);
-  --color-menuAutoCompleteBackground: var(--palenight-background-dark);
-  --color-menuAutoCompleteBackgroundHover: var(--palenight-background-light);
-  --color-menuAutoCompleteText: var(--palenight-foreground);
-  --color-menuAutoCompleteTextHover: var(--palenight-cyan);
-  --color-menuAutoCompleteTextHeader: var(--palenight-purple);
-  --color-menuAutoCompleteItemTextHover: var(--palenight-foreground);
+  --color-menuBackground: var(--solarized-background-light);
+  --color-menuItemBackground: var(--solarized-background-light);
+  --color-menuItemBackgroundHover: var(--solarized-selection);
+  --color-menuItemText: var(--solarized-foreground);
+  --color-menuItemTextHover: var(--solarized-cyan);
+  --color-menuItemTextSelected: var(--solarized-blue);
+  --color-menuItemTextHeader: var(--solarized-purple);
+  --color-menuBorder: var(--solarized-border);
+  --color-menuBorderHover: var(--solarized-purple);
+  --color-menuKeybindingText: var(--solarized-comment);
+  --color-menuAutoCompleteBackground: var(--solarized-background-dark);
+  --color-menuAutoCompleteBackgroundHover: var(--solarized-background-light);
+  --color-menuAutoCompleteText: var(--solarized-foreground);
+  --color-menuAutoCompleteTextHover: var(--solarized-cyan);
+  --color-menuAutoCompleteTextHeader: var(--solarized-purple);
+  --color-menuAutoCompleteItemTextHover: var(--solarized-foreground);
   --color-menuAutoCompleteItemText: var(--color-menuItemText);
 
-  --color-modalBackground: var(--palenight-background-light);
-  --color-modalBorder: var(--palenight-border);
-  --color-mobileHeaderBackground: var(--palenight-background);
-  --color-mobileHeaderText: var(--palenight-blue);
-  --color-mobileHeaderTextSubdued: var(--palenight-comment);
-  --color-mobileHeaderTextHover: var(--palenight-hover-overlay);
-  --color-mobilePageBackground: var(--palenight-background);
-  --color-mobileNavBackground: var(--palenight-background-light);
-  --color-mobileNavItem: var(--palenight-foreground);
-  --color-mobileNavItemSelected: var(--palenight-blue);
+  --color-modalBackground: var(--solarized-background-light);
+  --color-modalBorder: var(--solarized-border);
+  --color-mobileHeaderBackground: var(--solarized-background);
+  --color-mobileHeaderText: var(--solarized-blue);
+  --color-mobileHeaderTextSubdued: var(--solarized-comment);
+  --color-mobileHeaderTextHover: var(--solarized-hover-overlay);
+  --color-mobilePageBackground: var(--solarized-background);
+  --color-mobileNavBackground: var(--solarized-background-light);
+  --color-mobileNavItem: var(--solarized-foreground);
+  --color-mobileNavItemSelected: var(--solarized-blue);
   --color-mobileAccountShadow: var(--color-cardShadow);
-  --color-mobileAccountText: var(--palenight-cyan);
-  --color-mobileTransactionSelected: var(--palenight-accent);
+  --color-mobileAccountText: var(--solarized-cyan);
+  --color-mobileTransactionSelected: var(--solarized-accent);
 
   --color-mobileViewTheme: var(--color-mobileHeaderBackground);
-  --color-mobileConfigServerViewTheme: var(--palenight-purple);
+  --color-mobileConfigServerViewTheme: var(--solarized-purple);
 
-  --color-markdownNormal: var(--palenight-purple);
-  --color-markdownDark: var(--palenight-blue);
-  --color-markdownLight: var(--palenight-cyan);
+  --color-markdownNormal: var(--solarized-purple);
+  --color-markdownDark: var(--solarized-blue);
+  --color-markdownLight: var(--solarized-cyan);
 
-  --color-buttonMenuText: var(--palenight-foreground);
+  --color-buttonMenuText: var(--solarized-foreground);
   --color-buttonMenuTextHover: var(--color-buttonMenuText);
   --color-buttonMenuBackground: transparent;
-  --color-buttonMenuBackgroundHover: var(--palenight-hover-overlay);
-  --color-buttonMenuBorder: var(--palenight-comment);
-  --color-buttonMenuSelectedText: var(--palenight-foreground);
-  --color-buttonMenuSelectedTextHover: var(--palenight-foreground);
-  --color-buttonMenuSelectedBackground: var(--palenight-purple-muted);
-  --color-buttonMenuSelectedBackgroundHover: var(--palenight-blue-muted);
+  --color-buttonMenuBackgroundHover: var(--solarized-hover-overlay);
+  --color-buttonMenuBorder: var(--solarized-comment);
+  --color-buttonMenuSelectedText: var(--solarized-foreground);
+  --color-buttonMenuSelectedTextHover: var(--solarized-foreground);
+  --color-buttonMenuSelectedBackground: var(--solarized-purple-muted);
+  --color-buttonMenuSelectedBackgroundHover: var(--solarized-blue-muted);
   --color-buttonMenuSelectedBorder: var(--color-buttonMenuSelectedBackground);
 
-  --color-buttonPrimaryText: var(--palenight-background);
+  --color-buttonPrimaryText: var(--solarized-background);
   --color-buttonPrimaryTextHover: var(--color-buttonPrimaryText);
-  --color-buttonPrimaryBackground: var(--palenight-purple);
-  --color-buttonPrimaryBackgroundHover: var(--palenight-blue);
+  --color-buttonPrimaryBackground: var(--solarized-purple);
+  --color-buttonPrimaryBackgroundHover: var(--solarized-blue);
   --color-buttonPrimaryBorder: var(--color-buttonPrimaryBackground);
-  --color-buttonPrimaryShadow: var(--palenight-shadow);
-  --color-buttonPrimaryDisabledText: var(--palenight-comment);
-  --color-buttonPrimaryDisabledBackground: var(--palenight-background-light);
+  --color-buttonPrimaryShadow: var(--solarized-shadow);
+  --color-buttonPrimaryDisabledText: var(--solarized-comment);
+  --color-buttonPrimaryDisabledBackground: var(--solarized-background-light);
   --color-buttonPrimaryDisabledBorder: var(--color-buttonPrimaryDisabledBackground);
 
-  --color-buttonNormalText: var(--palenight-foreground);
-  --color-buttonNormalTextHover: var(--palenight-cyan);
-  --color-buttonNormalBackground: var(--palenight-workspace);
-  --color-buttonNormalBackgroundHover: var(--palenight-purple-muted);
-  --color-buttonNormalBorder: var(--palenight-border);
-  --color-buttonNormalShadow: var(--palenight-shadow);
-  --color-buttonNormalSelectedText: var(--palenight-background);
-  --color-buttonNormalSelectedBackground: var(--palenight-purple);
-  --color-buttonNormalDisabledText: var(--palenight-comment);
-  --color-buttonNormalDisabledBackground: var(--palenight-background-light);
-  --color-buttonNormalDisabledBorder: var(--palenight-border);
+  --color-buttonNormalText: var(--solarized-foreground);
+  --color-buttonNormalTextHover: var(--solarized-cyan);
+  --color-buttonNormalBackground: var(--solarized-workspace);
+  --color-buttonNormalBackgroundHover: var(--solarized-purple-muted);
+  --color-buttonNormalBorder: var(--solarized-border);
+  --color-buttonNormalShadow: var(--solarized-shadow);
+  --color-buttonNormalSelectedText: var(--solarized-background);
+  --color-buttonNormalSelectedBackground: var(--solarized-purple);
+  --color-buttonNormalDisabledText: var(--solarized-comment);
+  --color-buttonNormalDisabledBackground: var(--solarized-background-light);
+  --color-buttonNormalDisabledBorder: var(--solarized-border);
 
-  --color-calendarText: var(--palenight-foreground);
-  --color-calendarBackground: var(--palenight-workspace);
-  --color-calendarItemText: var(--palenight-foreground);
-  --color-calendarItemBackground: var(--palenight-background-light);
+  --color-calendarText: var(--solarized-foreground);
+  --color-calendarBackground: var(--solarized-workspace);
+  --color-calendarItemText: var(--solarized-foreground);
+  --color-calendarItemBackground: var(--solarized-background-light);
   --color-calendarSelectedBackground: var(--color-buttonNormalSelectedBackground);
-  --color-datePickerRangeBackground: var(--palenight-accent);
+  --color-datePickerRangeBackground: var(--solarized-accent);
 
   --color-buttonBareText: var(--color-pageText);
-  --color-buttonBareTextHover: var(--palenight-cyan);
+  --color-buttonBareTextHover: var(--solarized-cyan);
   --color-buttonBareDisabledText: var(--color-pageTextSubdued);
   --color-buttonBareBackground: transparent;
   --color-buttonBareDisabledBackground: var(--color-buttonBareBackground);
-  --color-buttonBareBackgroundHover: var(--palenight-muted-overlay);
-  --color-buttonBareBackgroundActive: var(--palenight-hover-overlay);
+  --color-buttonBareBackgroundHover: var(--solarized-muted-overlay);
+  --color-buttonBareBackgroundActive: var(--solarized-hover-overlay);
 
-  --color-noticeBackground: var(--palenight-background-light);
-  --color-noticeBackgroundLight: var(--palenight-selection);
-  --color-noticeBackgroundDark: var(--palenight-green);
-  --color-noticeText: var(--palenight-green);
-  --color-noticeTextLight: var(--palenight-green);
-  --color-noticeTextDark: var(--palenight-foreground);
-  --color-noticeTextMenu: var(--palenight-green);
-  --color-noticeTextMenuHover: var(--palenight-background);
-  --color-noticeBorder: var(--palenight-green);
-  --color-warningBackground: var(--palenight-background-light);
-  --color-warningText: var(--palenight-orange);
-  --color-warningTextLight: var(--palenight-yellow);
-  --color-warningTextDark: var(--palenight-foreground);
-  --color-warningBorder: var(--palenight-orange);
-  --color-errorBackground: var(--palenight-background-light);
-  --color-errorText: var(--palenight-red);
-  --color-errorTextDark: var(--palenight-foreground);
-  --color-errorTextDarker: var(--palenight-foreground);
-  --color-errorTextMenu: var(--palenight-red);
-  --color-errorBorder: var(--palenight-red);
-  --color-upcomingBackground: var(--palenight-background-light);
-  --color-upcomingText: var(--palenight-purple);
+  --color-noticeBackground: var(--solarized-background-light);
+  --color-noticeBackgroundLight: var(--solarized-selection);
+  --color-noticeBackgroundDark: var(--solarized-green);
+  --color-noticeText: var(--solarized-green);
+  --color-noticeTextLight: var(--solarized-green);
+  --color-noticeTextDark: var(--solarized-foreground);
+  --color-noticeTextMenu: var(--solarized-green);
+  --color-noticeTextMenuHover: var(--solarized-background);
+  --color-noticeBorder: var(--solarized-green);
+  --color-warningBackground: var(--solarized-background-light);
+  --color-warningText: var(--solarized-orange);
+  --color-warningTextLight: var(--solarized-yellow);
+  --color-warningTextDark: var(--solarized-foreground);
+  --color-warningBorder: var(--solarized-orange);
+  --color-errorBackground: var(--solarized-background-light);
+  --color-errorText: var(--solarized-red);
+  --color-errorTextDark: var(--solarized-foreground);
+  --color-errorTextDarker: var(--solarized-foreground);
+  --color-errorTextMenu: var(--solarized-red);
+  --color-errorBorder: var(--solarized-red);
+  --color-upcomingBackground: var(--solarized-background-light);
+  --color-upcomingText: var(--solarized-purple);
   --color-upcomingBorder: var(--color-tableBorder);
 
-  --color-formLabelText: var(--palenight-purple);
-  --color-formLabelBackground: var(--palenight-workspace);
-  --color-formInputBackground: var(--palenight-background-dark);
-  --color-formInputBackgroundSelected: var(--palenight-background-light);
-  --color-formInputBackgroundSelection: var(--palenight-purple);
-  --color-formInputBorder: var(--palenight-border);
-  --color-formInputTextReadOnlySelection: var(--palenight-workspace);
-  --color-formInputBorderSelected: var(--palenight-purple);
-  --color-formInputText: var(--palenight-foreground);
-  --color-formInputTextSelected: var(--palenight-workspace);
-  --color-formInputTextPlaceholder: var(--palenight-comment);
-  --color-formInputTextPlaceholderSelected: var(--palenight-comment);
-  --color-formInputTextSelection: var(--palenight-workspace);
-  --color-formInputShadowSelected: var(--palenight-purple);
-  --color-formInputTextHighlight: var(--palenight-blue);
+  --color-formLabelText: var(--solarized-purple);
+  --color-formLabelBackground: var(--solarized-workspace);
+  --color-formInputBackground: var(--solarized-background-dark);
+  --color-formInputBackgroundSelected: var(--solarized-background-light);
+  --color-formInputBackgroundSelection: var(--solarized-purple);
+  --color-formInputBorder: var(--solarized-border);
+  --color-formInputTextReadOnlySelection: var(--solarized-workspace);
+  --color-formInputBorderSelected: var(--solarized-purple);
+  --color-formInputText: var(--solarized-foreground);
+  --color-formInputTextSelected: var(--solarized-workspace);
+  --color-formInputTextPlaceholder: var(--solarized-comment);
+  --color-formInputTextPlaceholderSelected: var(--solarized-comment);
+  --color-formInputTextSelection: var(--solarized-workspace);
+  --color-formInputShadowSelected: var(--solarized-purple);
+  --color-formInputTextHighlight: var(--solarized-blue);
   --color-checkboxText: var(--color-tableText);
-  --color-checkboxBackgroundSelected: var(--palenight-purple);
-  --color-checkboxBorderSelected: var(--palenight-purple);
-  --color-checkboxShadowSelected: var(--palenight-blue);
-  --color-checkboxToggleBackground: var(--palenight-comment);
-  --color-checkboxToggleBackgroundSelected: var(--palenight-purple);
-  --color-checkboxToggleDisabled: var(--palenight-background-light);
+  --color-checkboxBackgroundSelected: var(--solarized-purple);
+  --color-checkboxBorderSelected: var(--solarized-purple);
+  --color-checkboxShadowSelected: var(--solarized-blue);
+  --color-checkboxToggleBackground: var(--solarized-comment);
+  --color-checkboxToggleBackgroundSelected: var(--solarized-purple);
+  --color-checkboxToggleDisabled: var(--solarized-background-light);
 
-  --color-pillBackground: var(--palenight-background-light);
-  --color-pillBackgroundLight: var(--palenight-workspace);
-  --color-pillText: var(--palenight-foreground);
-  --color-pillTextHighlighted: var(--palenight-blue);
-  --color-pillBorder: var(--palenight-border);
+  --color-pillBackground: var(--solarized-background-light);
+  --color-pillBackgroundLight: var(--solarized-workspace);
+  --color-pillText: var(--solarized-foreground);
+  --color-pillTextHighlighted: var(--solarized-blue);
+  --color-pillBorder: var(--solarized-border);
   --color-pillBorderDark: var(--color-pillBorder);
-  --color-pillBackgroundSelected: var(--palenight-accent);
-  --color-pillTextSelected: var(--palenight-foreground-bright);
-  --color-pillBorderSelected: var(--palenight-blue);
-  --color-pillTextSubdued: var(--palenight-comment);
+  --color-pillBackgroundSelected: var(--solarized-accent);
+  --color-pillTextSelected: var(--solarized-foreground-bright);
+  --color-pillBorderSelected: var(--solarized-blue);
+  --color-pillTextSubdued: var(--solarized-comment);
 
-  --color-reportsRed: var(--palenight-red);
-  --color-reportsBlue: var(--palenight-cyan);
-  --color-reportsGreen: var(--palenight-green);
-  --color-reportsGray: var(--palenight-comment);
+  --color-reportsRed: var(--solarized-red);
+  --color-reportsBlue: var(--solarized-cyan);
+  --color-reportsGreen: var(--solarized-green);
+  --color-reportsGray: var(--solarized-comment);
   --color-reportsLabel: var(--color-pageText);
-  --color-reportsInnerLabel: var(--palenight-workspace);
+  --color-reportsInnerLabel: var(--solarized-workspace);
   --color-reportsNumberPositive: var(--color-numberPositive);
   --color-reportsNumberNegative: var(--color-numberNegative);
   --color-reportsNumberNeutral: var(--color-numberNeutral);
   --color-reportsChartFill: var(--color-reportsNumberPositive);
 
-  --color-noteTagBackground: var(--palenight-background-light);
-  --color-noteTagBackgroundHover: var(--palenight-selection);
-  --color-noteTagDefault: var(--palenight-purple);
-  --color-noteTagText: var(--palenight-foreground);
+  --color-noteTagBackground: var(--solarized-background-light);
+  --color-noteTagBackgroundHover: var(--solarized-selection);
+  --color-noteTagDefault: var(--solarized-purple);
+  --color-noteTagText: var(--solarized-foreground);
 
-  --color-budgetOtherMonth: var(--palenight-background-dark);
+  --color-budgetOtherMonth: var(--solarized-background-dark);
   --color-budgetCurrentMonth: var(--color-tableBackground);
-  --color-budgetHeaderOtherMonth: var(--palenight-background-light);
+  --color-budgetHeaderOtherMonth: var(--solarized-background-light);
   --color-budgetHeaderCurrentMonth: var(--color-tableHeaderBackground);
 
-  --color-floatingActionBarBackground: var(--palenight-background-dark);
-  --color-floatingActionBarBorder: var(--palenight-purple);
-  --color-floatingActionBarText: var(--palenight-foreground);
+  --color-floatingActionBarBackground: var(--solarized-background-dark);
+  --color-floatingActionBarBorder: var(--solarized-purple);
+  --color-floatingActionBarText: var(--solarized-foreground);
 
-  --color-tooltipText: var(--palenight-foreground);
-  --color-tooltipBackground: var(--palenight-current-line);
-  --color-tooltipBorder: var(--palenight-selection);
+  --color-tooltipText: var(--solarized-foreground);
+  --color-tooltipBackground: var(--solarized-current-line);
+  --color-tooltipBorder: var(--solarized-selection);
 
-  --color-calendarCellBackground: var(--palenight-workspace);
+  --color-calendarCellBackground: var(--solarized-workspace);
 
-  --color-overlayBackground: var(--palenight-overlay);
+  --color-overlayBackground: var(--solarized-overlay);
 
-  --color-chartQual1: var(--palenight-cyan);
-  --color-chartQual2: var(--palenight-purple);
-  --color-chartQual3: var(--palenight-green);
-  --color-chartQual4: var(--palenight-blue);
-  --color-chartQual5: var(--palenight-orange);
-  --color-chartQual6: var(--palenight-yellow);
-  --color-chartQual7: var(--palenight-red);
-  --color-chartQual8: var(--palenight-comment);
-  --color-chartQual9: var(--palenight-foreground);
+  --color-chartQual1: var(--solarized-cyan);
+  --color-chartQual2: var(--solarized-purple);
+  --color-chartQual3: var(--solarized-green);
+  --color-chartQual4: var(--solarized-blue);
+  --color-chartQual5: var(--solarized-orange);
+  --color-chartQual6: var(--solarized-yellow);
+  --color-chartQual7: var(--solarized-red);
+  --color-chartQual8: var(--solarized-comment);
+  --color-chartQual9: var(--solarized-foreground);
 }
