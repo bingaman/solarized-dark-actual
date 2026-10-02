@@ -1,8 +1,7 @@
-# Palenight for Actual Budget
+# Solarized for Actual Budget
 
 A dark theme for [Actual Budget](https://actualbudget.org), a port of the
-[Palenight](https://github.com/whizkydee/vscode-palenight-theme) colour scheme —
-the material-inspired palette also known from Vim, Neovim, IntelliJ and iTerm2.
+[Solarized](https://github.com/solarized) colour scheme.
 
 | | |
 | --- | --- |
